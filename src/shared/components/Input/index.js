@@ -15,7 +15,7 @@ const enhancer = compose(
   )
 );
 
-const Input = ({
+export const Input = ({
   type = 'text',
   id = '',
   state = '',

@@ -8,3 +8,12 @@ storiesOf('Input', module)
   .add('default', () => (
     <Input />
   ))
+  .add('success', () => (
+    <Input state="success" />
+  ))
+  .add('warning', () => (
+    <Input state="warning" />
+  ))
+  .add('danger', () => (
+    <Input state="danger" />
+  ))

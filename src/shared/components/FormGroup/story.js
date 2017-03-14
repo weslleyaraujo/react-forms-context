@@ -8,8 +8,19 @@ import Label from '../Label/index.js';
 
 storiesOf('FormGroup', module)
   .add('default', () => (
-    <FormGroup id="foo">
-      <Label>Id is right there in the context</Label>
+    <FormGroup
+      id="foo"
+    >
+      <Label>Example</Label>
+      <Input />
+    </FormGroup>
+  ))
+  .add('validation state', () => (
+    <FormGroup
+      state="success"
+      id="bar"
+    >
+      <Label>Lorem</Label>
       <Input />
     </FormGroup>
   ))
